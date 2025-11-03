@@ -1,2 +1,30 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+table td:last-child{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+th,
+td{
+	padding-left: 1em;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+tr.total > td{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+tfoot > tr > td,
+tr.total > td:last-of-type{
+	border-top: 1px solid;
+}
+
+tr.total > td:first-of-type{
+	text-align: center;
+}
