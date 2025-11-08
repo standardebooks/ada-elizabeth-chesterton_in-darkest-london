@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-086</code>
+			<reason>Regex in test matches "L.C". in L.C.C.</reason>
+		</ignore>
+		<ignore>
+			<code>t-010</code>
+			<reason>9.42 is a percentage.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
