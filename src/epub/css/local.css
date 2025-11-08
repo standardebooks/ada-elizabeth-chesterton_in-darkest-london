@@ -1,6 +1,11 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 table td:last-child{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
@@ -13,6 +18,11 @@ td{
 
 table{
 	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+table > caption{
+	font-variant: small-caps;
 }
 
 tr.total > td{
@@ -27,4 +37,14 @@ tr.total > td:last-of-type{
 
 tr.total > td:first-of-type{
 	text-align: center;
+}
+
+#endnotes table:last-of-type th,
+#endnotes table:last-of-type td{
+	border-right: 1px solid;
+}
+
+#endnotes table:last-of-type th:last-of-type,
+#endnotes table:last-of-type td:last-of-type{
+	border-right: none;
 }
