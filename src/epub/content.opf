@@ -54,10 +54,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no2010191109</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Katherine Sophie Dreier</dc:contributor>
+		<meta property="file-as" refines="#artist">Sophie Dreier, Katherine</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Katherine_Sophie_Dreier</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82004216</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber">Wikisource</dc:contributor>
 		<meta property="se:url.homepage" refines="#transcriber">https://en.wikisource.org/</meta>
