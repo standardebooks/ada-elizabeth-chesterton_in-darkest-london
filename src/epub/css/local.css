@@ -6,36 +6,45 @@ footer{
 	text-align: right;
 }
 
-table td:last-child{
+table{
+	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
-	text-align: right;
+	margin: 1em auto;
+}
+
+caption{
+	font-variant: small-caps;
 }
 
 th,
 td{
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 0 .5em;
 }
 
-table{
-	border-collapse: collapse;
-	margin: 1em auto;
+thead > tr:first-child > th:first-child,
+td:first-child{
+	padding-left: 0;
 }
 
-table > caption{
-	font-variant: small-caps;
-}
-
-thead > tr > th{
+th{
 	border-bottom: 1px solid;
+	text-align: center;
+}
+
+td + td{
+	text-align: right;
+}
+
+td:last-child{
+	padding-right: 0;
 }
 
 tr.total > td{
-	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
 
-tfoot > tr > td,
+tfoot td,
 tr.total > td:last-of-type{
 	border-top: 1px solid;
 }
@@ -44,12 +53,27 @@ tr.total > td:first-of-type{
 	text-align: center;
 }
 
-#endnotes li:last-of-type th,
-#endnotes li:last-of-type td{
-	border-right: 1px solid;
+#note-2 > table{
+	border-style: solid;
+	border-width: 2px 0;
 }
 
-#endnotes li:last-of-type tr:first-of-type th:last-of-type,
-#endnotes li:last-of-type td:last-of-type{
-	border-right: none;
+#note-2 th,
+#note-2 td + td{
+	border: 1px solid;
+}
+
+#note-2 thead > tr:first-child > th:first-child,
+#note-2 td:first-child{
+	border-left: 0;
+	padding-left: 0;
+}
+
+#note-2 th:last-child{
+	border-right: 0;
+}
+
+#note-2 td:last-child,
+#note-2 td:empty{
+	border: 0;
 }
