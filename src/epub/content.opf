@@ -38,9 +38,12 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008116058</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A social campaigner describes her experiences living on the streets of 1920s London.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In 1925 the journalist &lt;a href="https://standardebooks.org/ebooks/ada-elizabeth-chesterton"&gt;Ada Elizabeth Chesterton&lt;/a&gt; decided on a dare to live on the streets of London. &lt;i&gt;In Darkest London&lt;/i&gt; chronicles her two week experience.&lt;/p&gt;
+			&lt;p&gt;She found a class of individuals, all without permanent homes, travelling from shelter to shelter. Though many of the shelters had sympathetic staff members, overly bureaucratic organizations made life incredibly difficult. Chesterton charges that the number of shelters, in particular those catering to women, were insufficient to handle the volume of people needing help, and those that did exist were too often unnecessarily restrictive. She claims that the government run shelters in particular were designed not to &lt;i&gt;help&lt;/i&gt; women, but to &lt;i&gt;reform&lt;/i&gt; them, which is in practice, if not intent, a very different proposition.&lt;/p&gt;
+			&lt;p&gt;Chesterton gives a sympathetic portrayal of the women she meets. At the time, there were many unflattering portraits of homeless people, some of which linger to this day. Claims of drug or alcohol problems, mental health issues, criminality, and low morals or intelligence are all discussed and shown to be exaggerations if not outright fabrications. The problem of homelessness should instead considered as both a political and an economic issue, which leads to the conclusion that women people have a right to expect to be treated with a dignity that was too often lacking even from official channels.&lt;/p&gt;
+			&lt;p&gt;The publication of &lt;i&gt;In Darkest London&lt;/i&gt; led to increased interest in the lives of homeless people and improved public shelters. Chesterton herself went on the to found the Cecil Houses, a number of shelters still in operation today. Named after her late husband Cecil Chesterton, brother of the Christian novelist and philosopher &lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;G. K. Chesterton&lt;/a&gt;, they operate on the principle of unconditional aid, and ask no questions of people who seek help.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/In_Darkest_London</dc:source>
