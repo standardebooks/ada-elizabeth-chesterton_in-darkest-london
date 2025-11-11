@@ -12,6 +12,7 @@ table{
 	margin: 1em auto;
 }
 
+[epub|type~="z3998:signature"],
 caption{
 	font-variant: small-caps;
 }
