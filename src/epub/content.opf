@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ada-elizabeth-chesterton/in-darkest-london</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-11-11T19:10:19Z</dc:date>
+		<meta property="dcterms:modified">2025-11-11T19:10:19Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,15 +42,15 @@
 		<dc:description id="description">A social campaigner describes her experiences living on the streets of 1920s London.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1925 the journalist &lt;a href="https://standardebooks.org/ebooks/ada-elizabeth-chesterton"&gt;Ada Elizabeth Chesterton&lt;/a&gt; decided on a dare to live on the streets of London. &lt;i&gt;In Darkest London&lt;/i&gt; chronicles her two week experience.&lt;/p&gt;
-			&lt;p&gt;She found a class of individuals, all without permanent homes, travelling from shelter to shelter. Though many of the shelters had sympathetic staff members, overly bureaucratic organizations made life incredibly difficult. Chesterton charges that the number of shelters, in particular those catering to women, were insufficient to handle the volume of people needing help, and those that did exist were too often unnecessarily restrictive. She claims that the government run shelters in particular were designed not to &lt;i&gt;help&lt;/i&gt; women, but to &lt;i&gt;reform&lt;/i&gt; them, which is in practice, if not intent, a very different proposition.&lt;/p&gt;
-			&lt;p&gt;Chesterton gives a sympathetic portrayal of the women she meets. At the time, there were many unflattering portraits of homeless people, some of which linger to this day. Claims of drug or alcohol problems, mental health issues, criminality, and low morals or intelligence are all discussed and shown to be exaggerations if not outright fabrications. The problem of homelessness should instead considered as both a political and an economic issue, which leads to the conclusion that women people have a right to expect to be treated with a dignity that was too often lacking even from official channels.&lt;/p&gt;
-			&lt;p&gt;The publication of &lt;i&gt;In Darkest London&lt;/i&gt; led to increased interest in the lives of homeless people and improved public shelters. Chesterton herself went on the to found the Cecil Houses, a number of shelters still in operation today. Named after her late husband Cecil Chesterton, brother of the Christian novelist and philosopher &lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;&lt;abbr&gt;G. K.&lt;/abbr&gt; Chesterton&lt;/a&gt;, they operate on the principle of unconditional aid, and ask no questions of people who seek help.&lt;/p&gt;
+			&lt;p&gt;What she found was a class of individuals, all without permanent homes, traveling between shelters in which overly bureaucratic organizations made life incredibly difficult. Chesterton concludes that the number of shelters, in particular those catering to women, were insufficient to handle the volume of people needing help, and those that did exist were too often unnecessarily restrictive. She claims that the government-run shelters in particular were designed not to &lt;em&gt;help&lt;/em&gt; women, but to &lt;em&gt;reform&lt;/em&gt; them, which are two very different propositions.&lt;/p&gt;
+			&lt;p&gt;Chesterton portrays the women she meets sympathetically. At the time, there were many unflattering portraits of the homeless, some of which linger to this day. Claims of drug or alcohol problems, mental health issues, criminality, and low morals or intelligence are shown to be exaggerations if not outright fabrications. The problem of homelessness should instead considered as both a political and an economic issue, which leads to the conclusion that people have a right to be treated with a dignity that was too often lacking.&lt;/p&gt;
+			&lt;p&gt;The publication of &lt;i&gt;In Darkest London&lt;/i&gt; led to increased interest in the lives of homeless people and improving public shelters. Chesterton herself went on to found the Cecil Houses, a system of shelters still in operation today, and named after her late husband Cecil Chesterton, &lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;G. K. Chesterton’s&lt;/a&gt; brother.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/In_Darkest_London</dc:source>
 		<dc:source>https://archive.org/details/indarkestlondon0000unse</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">56280</meta>
+		<meta property="se:reading-ease.flesch">68.5</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ada-elizabeth-chesterton_in-darkest-london</meta>
 		<dc:creator id="author">Ada Elizabeth Chesterton</dc:creator>
 		<meta property="file-as" refines="#author">Chesterton, Ada Elizabeth</meta>
@@ -74,6 +74,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
