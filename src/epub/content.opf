@@ -49,7 +49,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/In_Darkest_London</dc:source>
 		<dc:source>https://archive.org/details/indarkestlondon0000unse</dc:source>
-		<meta property="se:word-count">56281</meta>
+		<meta property="se:word-count">55779</meta>
 		<meta property="se:reading-ease.flesch">68.5</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ada-elizabeth-chesterton_in-darkest-london</meta>
 		<dc:creator id="author">Ada Elizabeth Chesterton</dc:creator>
