@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ada-elizabeth-chesterton/in-darkest-london</dc:identifier>
 		<dc:date>2025-11-11T19:10:19Z</dc:date>
 		<meta property="dcterms:modified">2025-11-11T19:10:19Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -38,7 +39,7 @@
 		<meta property="term" refines="#subject-2">unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008116058</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">A social campaigner describes her experiences living on the streets of 1920s London.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1925 the journalist &lt;a href="https://standardebooks.org/ebooks/ada-elizabeth-chesterton"&gt;Ada Elizabeth Chesterton&lt;/a&gt; decided on a dare to live on the streets of London. &lt;i&gt;In Darkest London&lt;/i&gt; chronicles her two week experience.&lt;/p&gt;
@@ -49,22 +50,24 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/In_Darkest_London</dc:source>
 		<dc:source>https://archive.org/details/indarkestlondon0000unse</dc:source>
-		<meta property="se:word-count">55779</meta>
-		<meta property="se:reading-ease.flesch">68.5</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/ada-elizabeth-chesterton_in-darkest-london</meta>
+		<meta property="schema:wordCount">55779</meta>
+		<meta property="schema:educationalLevel">68.5</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/ada-elizabeth-chesterton_in-darkest-london" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Ada Elizabeth Chesterton</dc:creator>
 		<meta property="file-as" refines="#author">Chesterton, Ada Elizabeth</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ada_Elizabeth_Chesterton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no2010191109</meta>
+		<link href="https://en.wikipedia.org/wiki/Ada_Elizabeth_Chesterton" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2010191109.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Katherine Sophie Dreier</dc:contributor>
 		<meta property="file-as" refines="#artist">Sophie Dreier, Katherine</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Katherine_Sophie_Dreier</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82004216</meta>
+		<link href="https://en.wikipedia.org/wiki/Katherine_Sophie_Dreier" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82004216.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber">Wikisource</dc:contributor>
-		<meta property="se:url.homepage" refines="#transcriber">https://en.wikisource.org/</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber" rel="schema:url"/>
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Lukas Bystricky</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Bystricky, Lukas</meta>
@@ -76,7 +79,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
