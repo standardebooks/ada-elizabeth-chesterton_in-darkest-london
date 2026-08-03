@@ -2,7 +2,7 @@
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
 		<ignore code="t-010">
-			<line>67</line>
+			<line>65</line>
 			<reason>9.42 is a percentage.</reason>
 		</ignore>
 	</file>
