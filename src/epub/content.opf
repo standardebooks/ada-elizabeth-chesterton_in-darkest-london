@@ -40,7 +40,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008116058</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>A social campaigner describes her experiences living on the streets of 1920s London.</dc:abstract>
+		<meta property="schema:abstract">A social campaigner describes her experiences living on the streets of 1920s London.</meta>
 		<dc:description>
 			&lt;p&gt;In 1925 the journalist &lt;a href="https://standardebooks.org/ebooks/ada-elizabeth-chesterton"&gt;Ada Elizabeth Chesterton&lt;/a&gt; decided on a dare to live on the streets of London. &lt;i&gt;In Darkest London&lt;/i&gt; chronicles her two week experience.&lt;/p&gt;
 			&lt;p&gt;What she found was a class of individuals, all without permanent homes, traveling between shelters in which overly bureaucratic organizations made life incredibly difficult. Chesterton concludes that the number of shelters, in particular those catering to women, were insufficient to handle the volume of people needing help, and those that did exist were too often unnecessarily restrictive. She claims that the government-run shelters in particular were designed not to &lt;em&gt;help&lt;/em&gt; women, but to &lt;em&gt;reform&lt;/em&gt; them, which are two very different propositions.&lt;/p&gt;
