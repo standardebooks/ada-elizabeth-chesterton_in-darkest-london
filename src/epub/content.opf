@@ -67,6 +67,7 @@
 		<link href="https://id.loc.gov/authorities/names/n82004216.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber">Wikisource</meta>
 		<link href="https://en.wikisource.org/" refines="#transcriber" rel="schema:url"/>
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Lukas Bystricky</dc:contributor>
